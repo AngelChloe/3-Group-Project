@@ -23,7 +23,7 @@ function Home() {
                         </ul>
                         <p>Get you group ready to get away with 3-Group!</p>
                         <hr />
-                        <h6>If you’re new, press “Register” at the top of this page (it is free). If you have already started organizing a trip, just “Log In” to resume your plans.</h6>
+                        <h6>If you’re new, please press “Register” at the top of this page (it is free). If you have already started organizing a trip, just “Log In” to resume your plans.</h6>
                     </Col >
                 </Row>
             </Container>
