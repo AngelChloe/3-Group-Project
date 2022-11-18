@@ -10,7 +10,7 @@ function Location() {
                 <Row className="text-justify mb-5">
                     <Col className="col-md-12 p-3 text-profile">
                         <p className="m-0 p-0">
-                            Enter your destination in the box below the map. Choose "Map" or "Satellite" view (buttons top left of map). Display "Full Screen" (button top right of map). Happy exploring!
+                            Enter your Adventure Destination in the box below the map. Choose "Map" or "Satellite" view (buttons top left of map). Display "Full Screen" (button top right of map). Happy exploring!
                         </p>
                     </Col>
                     

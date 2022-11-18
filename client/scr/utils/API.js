@@ -2,7 +2,7 @@ import axios from "axios";
 
 export default {
 
-    // Axios is an HTTP consumer library that permits you to make requests to a given endpoint
+    // Axios is an HTTP consumer library that permits you to make requests to a given endpoint.  Need to do an npm install axios
    // Authentication methods
    // ===============================================
    deleteTrip: function(id){
