@@ -1,12 +1,12 @@
 import { Route, Routes } from "react-router-dom";
 
 import Layout from "./components/layout/Layout";
-import DashboardPage from "../../../pages/dashboard";
-import AboutUsPage from "../../../pages/aboutus";
-import DestinationPage from "../../../pages/destinations";
-import PastTripsPage from "../../../pages/pasttrips";
-import LoginPage from "../../../pages/login";
-import SignupPage from "../../../pages/signup";
+import DashboardPage from "./pages/dashboard";
+import AboutUsPage from "./pages/aboutus";
+import DestinationPage from "./pages/destinations";
+import PastTripsPage from "./pages/pasttrips";
+import LoginPage from "./pages/login";
+import SignupPage from "./pages/signup";
 
 function App() {
   return (
