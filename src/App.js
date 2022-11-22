@@ -8,7 +8,24 @@ import PastTripsPage from "./pages/pasttrips";
 import LoginPage from "./pages/login";
 import SignupPage from "./pages/signup";
 
+
 function App() {
+  const axios = require("axios");
+
+const options = {
+  method: 'GET',
+  url: 'https://countries-cities.p.rapidapi.com/location/country/list',
+  headers: {
+    'X-RapidAPI-Key': 'bcee7348afmshb2a2bb64c60a5ebp11f6bbjsn4d7b7ce455d6',
+    'X-RapidAPI-Host': 'countries-cities.p.rapidapi.com'
+  }
+};
+
+axios.request(options).then(function (response) {
+	console.log(response.data);
+}).catch(function (error) {
+	console.error(error);
+});
   return (
     <Layout>
      <Routes>

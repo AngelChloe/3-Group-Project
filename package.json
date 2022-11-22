@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "create-react-app": "^5.0.1",
     "framer-motion": "^7.6.7",
+    "mongoose": "^6.7.2",
     "node": "^19.1.0",
     "node.js": "^0.0.1-security",
     "react": "^18.2.0",
