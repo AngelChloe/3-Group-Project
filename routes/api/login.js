@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const dbUsers = require("../../../models/Login")
+const dbLogin = require("../../models/login")
 
 router.get("/", function(req, res){
   dbLogin.find({})
