@@ -10,7 +10,8 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "create-react-app": "^5.0.1",
+    "cors": "^2.8.5",
+    "create-react-app": "^1.2.1",
     "framer-motion": "^7.6.7",
     "mongoose": "^6.7.2",
     "node": "^19.1.0",
@@ -58,6 +59,14 @@
     ]
   },
   "devDependencies": {
-    "react-scripts": "^5.0.1"
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/node": "^7.18.10",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.18.9",
+    "@babel/preset-env": "^7.18.10",
+    "nodemon": "^2.0.19",
+    "react-scripts": "^2.1.8",
+    "rimraf": "^3.0.2"
   }
 }

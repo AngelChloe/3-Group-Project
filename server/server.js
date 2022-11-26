@@ -1,10 +1,7 @@
 const path = require("path");
 const routes = require("./routes/api");
-const { db,app} = require('./config');
-//routes
-app.use('/api/test' , require('./routes/testApi'));
-app.use('/api/auth',require('./routes/auth'));
-app.use('/api/pasttrips',require('./routes/pasttripsAPI'));
+const { app} = require('./config');
+
 
 app.use(routes);
 
