@@ -1,3 +1,7 @@
+// ***MAY NEED TO REMOVE IMPORT REACT***  CC
+import React from "react";
+ 
+// We use Route in order to define the different routes of our application
 import { Route, Routes } from "react-router-dom";
 
 import Layout from "./components/layout/Layout";
@@ -10,7 +14,7 @@ import SignupPage from "./pages/signup";
 import Footer from "./components/layout/Footer";
 import ContactPage from "./pages/contact";
 
-
+// may need to change to const App() CC
 function App() {
   return (
     <Layout>

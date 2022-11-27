@@ -3,14 +3,11 @@
 // const authRoutes = require("./../authentication");
 
 
-
-// module.exports = router;
-
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import userRouter from "./routing/user-routes";
-import pasttripsRouter from "./routing/pasttrips-routes";
+import pasttripsRouter from "./routing/pasttrips";
+import userRouter from "./routing/user";
 import cors from "cors";
 
 const app = express();
@@ -20,7 +17,7 @@ dotenv.config();
 app.use(cors());
 app.use(express.json());
 app.use("/user", userRouter);
-app.use("/pasttrips", pasttripsRouter);
+app.use("/posts", pasttripsRouter);
 
 // connections
 mongoose
